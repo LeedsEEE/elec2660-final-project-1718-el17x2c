@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *balanceLabel;
 @property (weak, nonatomic) IBOutlet UILabel *incomeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *outcomeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *blackLine;
 
 @property (weak, nonatomic) IBOutlet UIPickerView *kindPicker;
 
@@ -22,6 +23,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *outcomeTextField;
 
 - (IBAction)confirmButton:(UIButton *)sender;
+- (IBAction)backGroundPressed:(id)sender;
 
 @property float income;
 @property float outcome;

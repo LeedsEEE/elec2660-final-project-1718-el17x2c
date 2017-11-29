@@ -82,6 +82,28 @@ float totalOut;
     
 }
 
+#pragma mark textfield delegate
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    
+    [textField resignFirstResponder];
+    
+    return YES;
+    
+}
+
+- (IBAction)backGroundPressed:(id)sender {
+    
+    if ([self.outcomeTextField isFirstResponder]) {
+        [self.outcomeTextField resignFirstResponder];
+    }
+    
+    if ([self.incomeTextField isFirstResponder]) {
+        [self.incomeTextField resignFirstResponder];
+    }
+    
+}
+
+#pragma mark confirm button
 // button action
 - (IBAction)confirmButton:(UIButton *)sender {
     [self checkIncome]; // use function checkincome, send message to self
@@ -91,6 +113,8 @@ float totalOut;
     self.incomeTextField.text = @"";
     self.outcomeTextField.text = @"";
 }
+
+
 
 -(void) checkIncome {
     self.income = [self.incomeTextField.text floatValue]; // get value from the textfield
