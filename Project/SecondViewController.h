@@ -7,9 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TableViewController.h"
+#import "FirstViewController.h"
+#import "DataModel.h"
+#import "Catalogs.h"
 
 @interface SecondViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *kindLabel;
+@property (weak, nonatomic) IBOutlet UILabel *mostExpensiveLabel;
+@property (weak, nonatomic) IBOutlet UILabel *cheapestLabel;
+@property (weak, nonatomic) IBOutlet UILabel *precentageLabel;
+
+- (IBAction)showChart:(id)sender;
 
 @end
+
 

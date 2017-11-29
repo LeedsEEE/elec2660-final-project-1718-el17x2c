@@ -14,9 +14,23 @@
 
 @implementation SecondViewController
 
+// use the data in tableindex and data
+extern NSInteger tableIndex;
+extern DataModel *data;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // give temp a value which is the number of tableindex th in the data expense
+    Catalogs *temp = data.expense [tableIndex];
+    
+    // let the labels show the results
+    self.kindLabel.text = [NSString stringWithFormat:@"%@", temp.kind];
+    self.cheapestLabel.text = [NSString stringWithFormat:@"Cheapest:%.2f", temp.cheapest];
+    self.mostExpensiveLabel.text = [NSString stringWithFormat:@"MostExpensive:%.2f", temp.mostExpensive];
+    self.precentageLabel.text = [NSString stringWithFormat:@"Percentage:%.0f%%", temp.percentage];
 }
 
 
@@ -26,4 +40,6 @@
 }
 
 
+- (IBAction)showChart:(id)sender {
+}
 @end

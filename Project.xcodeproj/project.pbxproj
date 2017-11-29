@@ -16,6 +16,18 @@
 		E41F0C171FBB436000915EA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F0C161FBB436000915EA5 /* main.m */; };
 		E41F0C211FBB436000915EA5 /* ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F0C201FBB436000915EA5 /* ProjectTests.m */; };
 		E41F0C2C1FBB436000915EA5 /* ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F0C2B1FBB436000915EA5 /* ProjectUITests.m */; };
+		E4A981C01FCEB760007802F8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981BF1FCEB760007802F8 /* TableViewController.m */; };
+		E4A981C11FCEB760007802F8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981BF1FCEB760007802F8 /* TableViewController.m */; };
+		E4A981C21FCEB760007802F8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981BF1FCEB760007802F8 /* TableViewController.m */; };
+		E4A981C51FCEB76C007802F8 /* Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981C41FCEB76C007802F8 /* Calculation.m */; };
+		E4A981C61FCEB76C007802F8 /* Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981C41FCEB76C007802F8 /* Calculation.m */; };
+		E4A981C71FCEB76C007802F8 /* Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981C41FCEB76C007802F8 /* Calculation.m */; };
+		E4A981CA1FCEB778007802F8 /* Catalogs.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981C91FCEB778007802F8 /* Catalogs.m */; };
+		E4A981CB1FCEB778007802F8 /* Catalogs.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981C91FCEB778007802F8 /* Catalogs.m */; };
+		E4A981CC1FCEB778007802F8 /* Catalogs.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981C91FCEB778007802F8 /* Catalogs.m */; };
+		E4A981CF1FCEB785007802F8 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981CE1FCEB785007802F8 /* DataModel.m */; };
+		E4A981D01FCEB785007802F8 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981CE1FCEB785007802F8 /* DataModel.m */; };
+		E4A981D11FCEB785007802F8 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981CE1FCEB785007802F8 /* DataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +66,14 @@
 		E41F0C271FBB436000915EA5 /* ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41F0C2B1FBB436000915EA5 /* ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectUITests.m; sourceTree = "<group>"; };
 		E41F0C2D1FBB436000915EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A981BE1FCEB75A007802F8 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E4A981BF1FCEB760007802F8 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		E4A981C31FCEB767007802F8 /* Calculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculation.h; sourceTree = "<group>"; };
+		E4A981C41FCEB76C007802F8 /* Calculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculation.m; sourceTree = "<group>"; };
+		E4A981C81FCEB773007802F8 /* Catalogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Catalogs.h; sourceTree = "<group>"; };
+		E4A981C91FCEB778007802F8 /* Catalogs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Catalogs.m; sourceTree = "<group>"; };
+		E4A981CD1FCEB77F007802F8 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		E4A981CE1FCEB785007802F8 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +130,14 @@
 				E41F0C081FBB436000915EA5 /* FirstViewController.m */,
 				E41F0C0A1FBB436000915EA5 /* SecondViewController.h */,
 				E41F0C0B1FBB436000915EA5 /* SecondViewController.m */,
+				E4A981BE1FCEB75A007802F8 /* TableViewController.h */,
+				E4A981BF1FCEB760007802F8 /* TableViewController.m */,
+				E4A981C31FCEB767007802F8 /* Calculation.h */,
+				E4A981C41FCEB76C007802F8 /* Calculation.m */,
+				E4A981C81FCEB773007802F8 /* Catalogs.h */,
+				E4A981C91FCEB778007802F8 /* Catalogs.m */,
+				E4A981CD1FCEB77F007802F8 /* DataModel.h */,
+				E4A981CE1FCEB785007802F8 /* DataModel.m */,
 				E41F0C0D1FBB436000915EA5 /* Main.storyboard */,
 				E41F0C101FBB436000915EA5 /* Assets.xcassets */,
 				E41F0C121FBB436000915EA5 /* LaunchScreen.storyboard */,
@@ -271,8 +299,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41F0C0C1FBB436000915EA5 /* SecondViewController.m in Sources */,
+				E4A981CF1FCEB785007802F8 /* DataModel.m in Sources */,
+				E4A981C51FCEB76C007802F8 /* Calculation.m in Sources */,
 				E41F0C061FBB436000915EA5 /* AppDelegate.m in Sources */,
 				E41F0C171FBB436000915EA5 /* main.m in Sources */,
+				E4A981CA1FCEB778007802F8 /* Catalogs.m in Sources */,
+				E4A981C01FCEB760007802F8 /* TableViewController.m in Sources */,
 				E41F0C091FBB436000915EA5 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +314,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41F0C211FBB436000915EA5 /* ProjectTests.m in Sources */,
+				E4A981D01FCEB785007802F8 /* DataModel.m in Sources */,
+				E4A981C61FCEB76C007802F8 /* Calculation.m in Sources */,
+				E4A981C11FCEB760007802F8 /* TableViewController.m in Sources */,
+				E4A981CB1FCEB778007802F8 /* Catalogs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +326,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41F0C2C1FBB436000915EA5 /* ProjectUITests.m in Sources */,
+				E4A981D11FCEB785007802F8 /* DataModel.m in Sources */,
+				E4A981C71FCEB76C007802F8 /* Calculation.m in Sources */,
+				E4A981C21FCEB760007802F8 /* TableViewController.m in Sources */,
+				E4A981CC1FCEB778007802F8 /* Catalogs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

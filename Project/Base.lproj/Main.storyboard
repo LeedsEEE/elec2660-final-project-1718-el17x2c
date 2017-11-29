@@ -238,6 +238,7 @@
                             <constraint firstItem="FZt-yw-7GL" firstAttribute="top" secondItem="2ZW-kI-Kch" secondAttribute="bottom" constant="40" id="WQB-Lr-cxN"/>
                             <constraint firstItem="FZt-yw-7GL" firstAttribute="centerX" secondItem="PCB-IH-nrC" secondAttribute="centerX" id="WRv-mk-KEa"/>
                             <constraint firstItem="2ZW-kI-Kch" firstAttribute="top" secondItem="PCB-IH-nrC" secondAttribute="top" constant="80" id="cQa-eo-lef"/>
+                            <constraint firstItem="Ryq-AB-1qC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="PMw-7v-fSo" secondAttribute="leading" constant="20" symbolic="YES" id="n69-pt-gCR"/>
                             <constraint firstItem="PCB-IH-nrC" firstAttribute="trailing" secondItem="Ryq-AB-1qC" secondAttribute="trailing" constant="50" id="nTz-0s-ch1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PCB-IH-nrC"/>
