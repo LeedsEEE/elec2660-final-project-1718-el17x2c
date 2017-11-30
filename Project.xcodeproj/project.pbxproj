@@ -19,17 +19,9 @@
 		E4946FA91FCF132D0066ED57 /* PieView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4946FA81FCF132D0066ED57 /* PieView.m */; };
 		E4946FAC1FCF13CC0066ED57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4946FAB1FCF13CC0066ED57 /* ViewController.m */; };
 		E4A981C01FCEB760007802F8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981BF1FCEB760007802F8 /* TableViewController.m */; };
-		E4A981C11FCEB760007802F8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981BF1FCEB760007802F8 /* TableViewController.m */; };
-		E4A981C21FCEB760007802F8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981BF1FCEB760007802F8 /* TableViewController.m */; };
 		E4A981C51FCEB76C007802F8 /* Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981C41FCEB76C007802F8 /* Calculation.m */; };
-		E4A981C61FCEB76C007802F8 /* Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981C41FCEB76C007802F8 /* Calculation.m */; };
-		E4A981C71FCEB76C007802F8 /* Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981C41FCEB76C007802F8 /* Calculation.m */; };
 		E4A981CA1FCEB778007802F8 /* Catalogs.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981C91FCEB778007802F8 /* Catalogs.m */; };
-		E4A981CB1FCEB778007802F8 /* Catalogs.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981C91FCEB778007802F8 /* Catalogs.m */; };
-		E4A981CC1FCEB778007802F8 /* Catalogs.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981C91FCEB778007802F8 /* Catalogs.m */; };
 		E4A981CF1FCEB785007802F8 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981CE1FCEB785007802F8 /* DataModel.m */; };
-		E4A981D01FCEB785007802F8 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981CE1FCEB785007802F8 /* DataModel.m */; };
-		E4A981D11FCEB785007802F8 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981CE1FCEB785007802F8 /* DataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -326,10 +318,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41F0C211FBB436000915EA5 /* ProjectTests.m in Sources */,
-				E4A981D01FCEB785007802F8 /* DataModel.m in Sources */,
-				E4A981C61FCEB76C007802F8 /* Calculation.m in Sources */,
-				E4A981C11FCEB760007802F8 /* TableViewController.m in Sources */,
-				E4A981CB1FCEB778007802F8 /* Catalogs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,10 +326,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41F0C2C1FBB436000915EA5 /* ProjectUITests.m in Sources */,
-				E4A981D11FCEB785007802F8 /* DataModel.m in Sources */,
-				E4A981C71FCEB76C007802F8 /* Calculation.m in Sources */,
-				E4A981C21FCEB760007802F8 /* TableViewController.m in Sources */,
-				E4A981CC1FCEB778007802F8 /* Catalogs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";

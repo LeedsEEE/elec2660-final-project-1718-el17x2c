@@ -64,7 +64,8 @@ NSInteger tableIndex;
     // Set Title
     cell.textLabel.text = [NSString stringWithFormat: @"%@", myKind.kind];
     // Set Detail
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"%.2f",myKind.total];
+    cell.detailTextLabel.text = [NSString stringWithFormat:@" "];
+    
     return cell;
 }
 

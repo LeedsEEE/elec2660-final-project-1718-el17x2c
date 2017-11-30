@@ -23,7 +23,20 @@ extern float totalOut;
     
 }
 
-// calcutate cheapest one
+// init the cheapest value
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        
+        Catalogs *temp = data.expense [self.row];
+        temp.cheapest = 99999999999999;
+    
+    }
+    return self;
+}
+
+// calculate the cheapest one
 - (void) cheapest{
     
 	Catalogs *temp = data.expense [self.row];

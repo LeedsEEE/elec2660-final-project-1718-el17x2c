@@ -83,6 +83,7 @@ float totalOut;
 }
 
 #pragma mark textfield delegate
+// press return to return
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
     
     [textField resignFirstResponder];
@@ -91,6 +92,7 @@ float totalOut;
     
 }
 
+//press background to return
 - (IBAction)backGroundPressed:(id)sender {
     
     if ([self.outcomeTextField isFirstResponder]) {

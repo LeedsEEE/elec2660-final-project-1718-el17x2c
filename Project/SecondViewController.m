@@ -28,9 +28,10 @@ extern DataModel *data;
     
     // let the labels show the results
     self.kindLabel.text = [NSString stringWithFormat:@"%@", temp.kind];
-    self.cheapestLabel.text = [NSString stringWithFormat:@"Cheapest:%.2f", temp.cheapest];
-    self.mostExpensiveLabel.text = [NSString stringWithFormat:@"MostExpensive:%.2f", temp.mostExpensive];
+    self.cheapestLabel.text = [NSString stringWithFormat:@"Cheapest: £ %.2f", temp.cheapest];
+    self.mostExpensiveLabel.text = [NSString stringWithFormat:@"MostExpensive: £ %.2f", temp.mostExpensive];
     self.precentageLabel.text = [NSString stringWithFormat:@"Percentage:%.0f%%", temp.percentage];
+    self.totalLabel.text = [NSString stringWithFormat:@"Total: £ %.2f", temp.total];
 }
 
 

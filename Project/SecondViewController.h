@@ -18,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *mostExpensiveLabel;
 @property (weak, nonatomic) IBOutlet UILabel *cheapestLabel;
 @property (weak, nonatomic) IBOutlet UILabel *precentageLabel;
+@property (weak, nonatomic) IBOutlet UILabel *totalLabel;
 
 - (IBAction)showChart:(id)sender;
 

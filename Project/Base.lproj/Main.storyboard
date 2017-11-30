@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -163,7 +162,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xHP-bU-83d">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.87079295320000005" green="1" blue="0.89301542249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CatalogCell" textLabel="ZpH-6x-NeV" detailTextLabel="99R-tp-fXT" style="IBUITableViewCellStyleValue2" id="u2w-5F-5AO">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -188,6 +187,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.87079295320000005" green="1" blue="0.89301542249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
                                     <segue destination="mNP-s2-wB0" kind="show" id="Fgi-fx-oTh"/>
                                 </connections>
@@ -245,10 +245,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hln-Ur-ECI">
+                                <rect key="frame" x="161.5" y="424" width="51.5" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.87079295320000005" green="1" blue="0.89301542249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="10u-FX-IlN" firstAttribute="top" secondItem="FZt-yw-7GL" secondAttribute="bottom" constant="40" id="2RU-yT-3tq"/>
+                            <constraint firstItem="Hln-Ur-ECI" firstAttribute="top" secondItem="ThQ-nX-l8a" secondAttribute="bottom" constant="40" id="4qm-hL-YCg"/>
                             <constraint firstItem="10u-FX-IlN" firstAttribute="centerX" secondItem="PCB-IH-nrC" secondAttribute="centerX" id="5WL-Kg-KjW"/>
                             <constraint firstItem="PCB-IH-nrC" firstAttribute="bottom" secondItem="Ryq-AB-1qC" secondAttribute="bottom" constant="40" id="Fu7-xd-8dg"/>
                             <constraint firstItem="ThQ-nX-l8a" firstAttribute="centerX" secondItem="PCB-IH-nrC" secondAttribute="centerX" id="JS4-U8-eaL"/>
@@ -257,6 +264,7 @@
                             <constraint firstItem="FZt-yw-7GL" firstAttribute="top" secondItem="2ZW-kI-Kch" secondAttribute="bottom" constant="40" id="WQB-Lr-cxN"/>
                             <constraint firstItem="FZt-yw-7GL" firstAttribute="centerX" secondItem="PCB-IH-nrC" secondAttribute="centerX" id="WRv-mk-KEa"/>
                             <constraint firstItem="2ZW-kI-Kch" firstAttribute="top" secondItem="PCB-IH-nrC" secondAttribute="top" constant="80" id="cQa-eo-lef"/>
+                            <constraint firstItem="Hln-Ur-ECI" firstAttribute="centerX" secondItem="PCB-IH-nrC" secondAttribute="centerX" id="foG-45-Yol"/>
                             <constraint firstItem="Ryq-AB-1qC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="PMw-7v-fSo" secondAttribute="leading" constant="20" symbolic="YES" id="n69-pt-gCR"/>
                             <constraint firstItem="PCB-IH-nrC" firstAttribute="trailing" secondItem="Ryq-AB-1qC" secondAttribute="trailing" constant="50" id="nTz-0s-ch1"/>
                         </constraints>
@@ -269,6 +277,7 @@
                         <outlet property="kindLabel" destination="2ZW-kI-Kch" id="IiG-mj-axp"/>
                         <outlet property="mostExpensiveLabel" destination="FZt-yw-7GL" id="JzL-Yi-pWJ"/>
                         <outlet property="precentageLabel" destination="ThQ-nX-l8a" id="CeI-zF-s3s"/>
+                        <outlet property="totalLabel" destination="Hln-Ur-ECI" id="iju-Pr-nNS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hYO-ad-2dj" sceneMemberID="firstResponder"/>
