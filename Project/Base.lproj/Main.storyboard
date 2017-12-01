@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -291,13 +292,25 @@
                     <view key="view" contentMode="scaleToFill" id="P1v-xL-clu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ox-t9-flN" customClass="XYPieChart">
+                                <rect key="frame" x="16" y="124" width="343" height="304"/>
+                                <color key="backgroundColor" red="0.87079295320000005" green="1" blue="0.89301542249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="0.87079295320000005" green="1" blue="0.89301542249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="7Ox-t9-flN" firstAttribute="leading" secondItem="P1v-xL-clu" secondAttribute="leadingMargin" id="FOj-W1-wDA"/>
+                            <constraint firstItem="o0b-q5-MWd" firstAttribute="bottom" secondItem="7Ox-t9-flN" secondAttribute="bottom" constant="190" id="FcV-ue-v0g"/>
+                            <constraint firstItem="7Ox-t9-flN" firstAttribute="top" secondItem="o0b-q5-MWd" secondAttribute="top" constant="60" id="gOq-yL-Gat"/>
+                            <constraint firstItem="7Ox-t9-flN" firstAttribute="centerX" secondItem="o0b-q5-MWd" secondAttribute="centerX" id="nwW-WI-cFo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="o0b-q5-MWd"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ikx-hB-Ph6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2988" y="400"/>
+            <point key="canvasLocation" x="2988" y="399.85007496251876"/>
         </scene>
     </scenes>
     <resources>

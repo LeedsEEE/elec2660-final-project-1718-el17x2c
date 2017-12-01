@@ -16,6 +16,7 @@
 		E41F0C171FBB436000915EA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F0C161FBB436000915EA5 /* main.m */; };
 		E41F0C211FBB436000915EA5 /* ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F0C201FBB436000915EA5 /* ProjectTests.m */; };
 		E41F0C2C1FBB436000915EA5 /* ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F0C2B1FBB436000915EA5 /* ProjectUITests.m */; };
+		E445F5491FD20DE100BB3352 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = E445F5481FD20DE100BB3352 /* XYPieChart.m */; };
 		E4946FA91FCF132D0066ED57 /* PieView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4946FA81FCF132D0066ED57 /* PieView.m */; };
 		E4946FAC1FCF13CC0066ED57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4946FAB1FCF13CC0066ED57 /* ViewController.m */; };
 		E4A981C01FCEB760007802F8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A981BF1FCEB760007802F8 /* TableViewController.m */; };
@@ -60,6 +61,8 @@
 		E41F0C271FBB436000915EA5 /* ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41F0C2B1FBB436000915EA5 /* ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectUITests.m; sourceTree = "<group>"; };
 		E41F0C2D1FBB436000915EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E445F5481FD20DE100BB3352 /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChart.m; sourceTree = "<group>"; };
+		E445F54A1FD20DE900BB3352 /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChart.h; sourceTree = "<group>"; };
 		E4946FA71FCF132D0066ED57 /* PieView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieView.h; sourceTree = "<group>"; };
 		E4946FA81FCF132D0066ED57 /* PieView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieView.m; sourceTree = "<group>"; };
 		E4946FAA1FCF13CC0066ED57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 				E4A981CD1FCEB77F007802F8 /* DataModel.h */,
 				E4A981CE1FCEB785007802F8 /* DataModel.m */,
 				E41F0C0D1FBB436000915EA5 /* Main.storyboard */,
+				E445F54A1FD20DE900BB3352 /* XYPieChart.h */,
+				E445F5481FD20DE100BB3352 /* XYPieChart.m */,
 				E4946FAA1FCF13CC0066ED57 /* ViewController.h */,
 				E4946FAB1FCF13CC0066ED57 /* ViewController.m */,
 				E4946FA71FCF132D0066ED57 /* PieView.h */,
@@ -302,6 +307,7 @@
 			files = (
 				E41F0C0C1FBB436000915EA5 /* SecondViewController.m in Sources */,
 				E4A981CF1FCEB785007802F8 /* DataModel.m in Sources */,
+				E445F5491FD20DE100BB3352 /* XYPieChart.m in Sources */,
 				E4A981C51FCEB76C007802F8 /* Calculation.m in Sources */,
 				E4946FA91FCF132D0066ED57 /* PieView.m in Sources */,
 				E4946FAC1FCF13CC0066ED57 /* ViewController.m in Sources */,
