@@ -124,23 +124,10 @@
 			children = (
 				E41F0C041FBB436000915EA5 /* AppDelegate.h */,
 				E41F0C051FBB436000915EA5 /* AppDelegate.m */,
-				E41F0C071FBB436000915EA5 /* FirstViewController.h */,
-				E41F0C081FBB436000915EA5 /* FirstViewController.m */,
-				E41F0C0A1FBB436000915EA5 /* SecondViewController.h */,
-				E41F0C0B1FBB436000915EA5 /* SecondViewController.m */,
-				E4A981BE1FCEB75A007802F8 /* TableViewController.h */,
-				E4A981BF1FCEB760007802F8 /* TableViewController.m */,
-				E4A981C31FCEB767007802F8 /* Calculation.h */,
-				E4A981C41FCEB76C007802F8 /* Calculation.m */,
-				E4A981C81FCEB773007802F8 /* Catalogs.h */,
-				E4A981C91FCEB778007802F8 /* Catalogs.m */,
-				E4A981CD1FCEB77F007802F8 /* DataModel.h */,
-				E4A981CE1FCEB785007802F8 /* DataModel.m */,
+				E4C61CAF1FD5576B0072FAB9 /* ViewController */,
+				E4C61CB01FD557930072FAB9 /* Data manage */,
+				E4C61CB11FD557CC0072FAB9 /* PieView */,
 				E41F0C0D1FBB436000915EA5 /* Main.storyboard */,
-				E4946FAA1FCF13CC0066ED57 /* ViewController.h */,
-				E4946FAB1FCF13CC0066ED57 /* ViewController.m */,
-				E4946FA71FCF132D0066ED57 /* PieView.h */,
-				E4946FA81FCF132D0066ED57 /* PieView.m */,
 				E41F0C101FBB436000915EA5 /* Assets.xcassets */,
 				E41F0C121FBB436000915EA5 /* LaunchScreen.storyboard */,
 				E41F0C151FBB436000915EA5 /* Info.plist */,
@@ -165,6 +152,43 @@
 				E41F0C2D1FBB436000915EA5 /* Info.plist */,
 			);
 			path = ProjectUITests;
+			sourceTree = "<group>";
+		};
+		E4C61CAF1FD5576B0072FAB9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E41F0C071FBB436000915EA5 /* FirstViewController.h */,
+				E41F0C081FBB436000915EA5 /* FirstViewController.m */,
+				E41F0C0A1FBB436000915EA5 /* SecondViewController.h */,
+				E41F0C0B1FBB436000915EA5 /* SecondViewController.m */,
+				E4A981BE1FCEB75A007802F8 /* TableViewController.h */,
+				E4A981BF1FCEB760007802F8 /* TableViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E4C61CB01FD557930072FAB9 /* Data manage */ = {
+			isa = PBXGroup;
+			children = (
+				E4A981C31FCEB767007802F8 /* Calculation.h */,
+				E4A981C41FCEB76C007802F8 /* Calculation.m */,
+				E4A981C81FCEB773007802F8 /* Catalogs.h */,
+				E4A981C91FCEB778007802F8 /* Catalogs.m */,
+				E4A981CD1FCEB77F007802F8 /* DataModel.h */,
+				E4A981CE1FCEB785007802F8 /* DataModel.m */,
+			);
+			path = "Data manage";
+			sourceTree = "<group>";
+		};
+		E4C61CB11FD557CC0072FAB9 /* PieView */ = {
+			isa = PBXGroup;
+			children = (
+				E4946FAA1FCF13CC0066ED57 /* ViewController.h */,
+				E4946FAB1FCF13CC0066ED57 /* ViewController.m */,
+				E4946FA71FCF132D0066ED57 /* PieView.h */,
+				E4946FA81FCF132D0066ED57 /* PieView.m */,
+			);
+			path = PieView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
