@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PieView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <PieViewDataSource, PieViewDelegate>
+
+@property (strong, nonatomic) UIView *vv;
+@property (strong, nonatomic) PieView *pieview;
 
 @end

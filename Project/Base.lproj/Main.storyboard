@@ -218,7 +218,7 @@
                                 <state key="normal" title="Pie Chart"/>
                                 <connections>
                                     <action selector="showChart:" destination="mNP-s2-wB0" eventType="touchUpInside" id="JXL-wO-lZN"/>
-                                    <segue destination="KRU-xx-eXL" kind="show" id="Y2U-lK-j0O"/>
+                                    <segue destination="5Xd-L4-Hdg" kind="show" id="fAS-rW-Ew9"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kind" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZW-kI-Kch">
@@ -285,19 +285,39 @@
             <point key="canvasLocation" x="2223" y="400"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="DLE-oC-lAf">
+        <scene sceneID="pkN-pn-3UI">
             <objects>
-                <viewController id="KRU-xx-eXL" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="P1v-xL-clu">
+                <viewController id="5Xd-L4-Hdg" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4es-Oi-VOS"/>
+                        <viewControllerLayoutGuide type="bottom" id="LBa-2z-rkc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ykn-RY-kCR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QOF-o6-P0u">
+                                <rect key="frame" x="0.0" y="64" width="374" height="340"/>
+                                <color key="backgroundColor" red="0.87079295320000005" green="1" blue="0.89301542249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="hSS-bf-ALo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="0.87079295320000005" green="1" blue="0.89301542249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <viewLayoutGuide key="safeArea" id="o0b-q5-MWd"/>
+                        <constraints>
+                            <constraint firstItem="QOF-o6-P0u" firstAttribute="centerX" secondItem="sjN-nX-EO9" secondAttribute="centerX" id="kIt-Pq-gw8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sjN-nX-EO9"/>
                     </view>
+                    <navigationItem key="navigationItem" id="c2A-ar-fZz"/>
+                    <connections>
+                        <outlet property="vv" destination="QOF-o6-P0u" id="HKh-oj-HLf"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ikx-hB-Ph6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eCt-T8-tnI" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2988" y="400"/>
+            <point key="canvasLocation" x="3058" y="400"/>
         </scene>
     </scenes>
     <resources>
