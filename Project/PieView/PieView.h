@@ -8,7 +8,7 @@
 
 
 /*
- I did not write the part myself. Most of the codes are form internet resources.
+ I did not write all this part myself. Most of the codes are form internet resources, and I modified them.
  https://www.youtube.com/watch?v=C8hCmTA_7cE
  https://codeplacer.wordpress.com/2015/01/22/how-to-draw-piechart-in-objective-c-using-xypiechart-library/
  http://blog.csdn.net/smileZhangli/article/details/78601625?locationNum=10&fps=1

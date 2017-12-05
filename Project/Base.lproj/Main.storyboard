@@ -296,7 +296,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QOF-o6-P0u">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QOF-o6-P0u" userLabel="PieView">
                                 <rect key="frame" x="0.0" y="64" width="374" height="340"/>
                                 <color key="backgroundColor" red="0.87079295320000005" green="1" blue="0.89301542249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
