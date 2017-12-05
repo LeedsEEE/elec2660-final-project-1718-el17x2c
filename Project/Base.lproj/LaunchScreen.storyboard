@@ -23,7 +23,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="屏幕快照 2017-12-05 下午1.24.33.png" translatesAutoresizingMaskIntoConstraints="NO" id="65j-ym-T5I">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lunaching board.png" translatesAutoresizingMaskIntoConstraints="NO" id="65j-ym-T5I">
                                 <rect key="frame" x="0.0" y="49" width="375" height="521"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -42,6 +42,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="屏幕快照 2017-12-05 下午1.24.33.png" width="567" height="878"/>
+        <image name="lunaching board.png" width="567" height="878"/>
     </resources>
 </document>
