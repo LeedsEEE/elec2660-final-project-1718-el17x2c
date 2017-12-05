@@ -10,9 +10,11 @@
  I did not write the part myself. Most of the codes are form internet resources.
  https://www.youtube.com/watch?v=C8hCmTA_7cE
  https://codeplacer.wordpress.com/2015/01/22/how-to-draw-piechart-in-objective-c-using-xypiechart-library/
- http://blog.csdn.net/qq_30513483/article/details/51694104
+ http://blog.csdn.net/smileZhangli/article/details/78601625?locationNum=10&fps=1
  http://www.codeweblog.com/ios%E7%BB%98%E5%88%B6%E9%A5%BC%E5%9B%BE-xypiechart/
  http://code.cocoachina.com/view/136370
+ http://blog.csdn.net/likendsl/article/details/7595905
+ http://www.jianshu.com/p/ad8eed568ff4
  */
 
 #import "PieView.h"
@@ -40,10 +42,10 @@
     [self setNeedsDisplay];
 }
 
+// draw the pie chart
 - (void)drawRect:(CGRect)rect
 {
-    
-    
+    // the part set circle properties
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGFloat theHalf = rect.size.width/2;
     CGFloat lineWidth = theHalf;
@@ -57,14 +59,13 @@
     CGFloat centerX = theHalf;
     CGFloat centerY = rect.size.height/2;
     
-    
-    
+    // the part draw the pie chart
     double sum = 0.0f;
-    int slicesCount = [self.datasource numberOfSlicesInPieChartView:self];
+    int slicesCount = [self.datasource numberOfSlicesInPieChartView:self]; // get number of slices
     
     for (int i = 0; i < slicesCount; i++)
     {
-        sum += [self.datasource pieChartView:self valueForSliceAtIndex:i];
+        sum += [self.datasource pieChartView:self valueForSliceAtIndex:i]; // get data
     }
     
     float startAngle = - M_PI_2;
@@ -75,13 +76,13 @@
         double value = [self.datasource pieChartView:self valueForSliceAtIndex:i];
         
         endAngle = startAngle + M_PI*2*value/sum;
-        CGContextAddArc(context, centerX, centerY, radius, startAngle, endAngle, false);
+        CGContextAddArc(context, centerX, centerY, radius, startAngle, endAngle, false);// draw a circle
         
-        UIColor  *drawColor = [self.datasource pieChartView:self colorForSliceAtIndex:i];
+        UIColor  *drawColor = [self.datasource pieChartView:self colorForSliceAtIndex:i]; // get color of piechart
         
         CGContextSetStrokeColorWithColor(context, drawColor.CGColor);
-        CGContextSetLineWidth(context, lineWidth);
-        CGContextStrokePath(context);
+        CGContextSetLineWidth(context, lineWidth); // set the line width
+        CGContextStrokePath(context); // linegrapg
         startAngle += M_PI*2*value/sum;
     }
 }
