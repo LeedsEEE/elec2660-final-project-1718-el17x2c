@@ -40,7 +40,12 @@ extern float totalOut;
 - (void) cheapest{
     
 	Catalogs *temp = data.expense [self.row];
-	temp.cheapest = MIN(temp.cheapest=99999999999, self.outcome);// MIN function will return the smaller value between two
+    
+    if(temp.cheapest == 0){
+        temp.cheapest = 999999999999;
+    }
+    
+	temp.cheapest = MIN(temp.cheapest, self.outcome);// MIN function will return the smaller value between two
 	data.expense [self.row] = temp;
     
 }
