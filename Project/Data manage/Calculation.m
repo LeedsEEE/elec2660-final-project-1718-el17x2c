@@ -24,7 +24,7 @@ extern float totalOut;
 }
 
 // init the cheapest value
-- (instancetype)init
+/*- (instancetype)init
 {
     self = [super init];
     if (self) {
@@ -34,13 +34,13 @@ extern float totalOut;
     
     }
     return self;
-}
+}*/
 
 // calculate the cheapest one
 - (void) cheapest{
     
 	Catalogs *temp = data.expense [self.row];
-	temp.cheapest = MIN(temp.cheapest, self.outcome);// MIN function will return the smaller value between two
+	temp.cheapest = MIN(temp.cheapest=99999999999, self.outcome);// MIN function will return the smaller value between two
 	data.expense [self.row] = temp;
     
 }
